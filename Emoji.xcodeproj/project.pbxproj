@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D86A7D1B204A88A400B2C017 /* Apaya.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A7D1A204A88A400B2C017 /* Apaya.swift */; };
+		D86A7D1D204A893B00B2C017 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A7D1C204A893B00B2C017 /* Card.swift */; };
 		D8F3D6B6204A560200D74AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F3D6B5204A560200D74AC0 /* AppDelegate.swift */; };
 		D8F3D6B8204A560200D74AC0 /* ApaYaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F3D6B7204A560200D74AC0 /* ApaYaViewController.swift */; };
 		D8F3D6BB204A560200D74AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F3D6B9204A560200D74AC0 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D86A7D1A204A88A400B2C017 /* Apaya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apaya.swift; sourceTree = "<group>"; };
+		D86A7D1C204A893B00B2C017 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		D8F3D6B2204A560200D74AC0 /* Emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F3D6B5204A560200D74AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8F3D6B7204A560200D74AC0 /* ApaYaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApaYaViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				D8F3D6BC204A560200D74AC0 /* Assets.xcassets */,
 				D8F3D6BE204A560200D74AC0 /* LaunchScreen.storyboard */,
 				D8F3D6C1204A560200D74AC0 /* Info.plist */,
+				D86A7D1A204A88A400B2C017 /* Apaya.swift */,
+				D86A7D1C204A893B00B2C017 /* Card.swift */,
 			);
 			path = Emoji;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86A7D1B204A88A400B2C017 /* Apaya.swift in Sources */,
 				D8F3D6B8204A560200D74AC0 /* ApaYaViewController.swift in Sources */,
 				D8F3D6B6204A560200D74AC0 /* AppDelegate.swift in Sources */,
+				D86A7D1D204A893B00B2C017 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
